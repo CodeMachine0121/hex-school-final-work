@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import NavBar from "./components/nav-bar.vue";
+import HeroContent from "./components/hero-content.vue";
 </script>
 
 <template id="app">
-  <nav-bar></nav-bar>
+  <nav-bar/>
+  <hero-content/>
 </template>
 
 
