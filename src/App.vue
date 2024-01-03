@@ -1,14 +1,16 @@
 <script setup lang="ts">
-import HeaderComponent from "./components/header-component.vue";
+import NavBar from "./components/nav-bar.vue";
 </script>
 
 <template id="app">
-  <header-component/>
+  <nav-bar></nav-bar>
 </template>
+
 
 <style lang="scss">
 @import "scss/reset";
 #app{
+  //background: url("./images/back-view.png") no-repeat center center fixed;
   width: 100%;
   height: 100vh;
 }
