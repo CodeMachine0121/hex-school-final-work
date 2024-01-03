@@ -1,9 +1,15 @@
 <script setup lang="ts">
+import HeaderComponent from "./components/header-component.vue";
 </script>
 
-<template>
-
+<template id="app">
+  <header-component/>
 </template>
 
-<style>
+<style lang="scss">
+@import "scss/reset";
+#app{
+  width: 100%;
+  height: 100vh;
+}
 </style>
