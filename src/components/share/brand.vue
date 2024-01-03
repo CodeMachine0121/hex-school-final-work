@@ -4,8 +4,8 @@
 
 <template>
   <div class="title">
-    <img src="../images/brand-name.svg" alt="brand-name">
-    <img src="../images/en-brand-name.svg" alt="brand-logo">
+    <img src="../../images/brand-name.svg" alt="brand-name">
+    <img src="../../images/en-brand-name.svg" alt="brand-logo">
   </div>
 </template>
 

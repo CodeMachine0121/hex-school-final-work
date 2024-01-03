@@ -1,12 +1,12 @@
 <script setup lang="ts">
 
-import BrandComponent from "./brandComponent.vue";
-import NavMenu from "./nav-menu.vue";
+import NavMenu from "./share/nav-menu.vue";
+import Brand from "./share/brand.vue";
 </script>
 
 <template>
 <div class="header">
-  <brand-component/>
+  <brand/>
   <nav-menu/>
 </div>
 </template>

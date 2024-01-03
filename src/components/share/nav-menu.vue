@@ -10,7 +10,7 @@ const onclick = () => {
 
 <template>
   <div>
-    <img @click="onclick" src="../images/menu.svg" alt="menu">
+    <img @click="onclick" src="../../images/menu.svg" alt="menu">
   </div>
 </template>
 
