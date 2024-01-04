@@ -28,6 +28,7 @@ import DecoLine from "./share/deco-line.vue";
 
 <style scoped>
 .hero-title {
+  margin-top: 40px;
   .deco-line{
     margin-top: 20px;
   }
@@ -61,6 +62,7 @@ import DecoLine from "./share/deco-line.vue";
   align-self: stretch;
   .hero-heading{
     margin-bottom: 40px;
+
     .display{
       display: flex;
       flex-direction: column;

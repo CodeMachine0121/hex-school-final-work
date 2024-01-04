@@ -12,7 +12,7 @@ import HeroContent from "./components/hero-content.vue";
 <style lang="scss">
 @import "scss/reset";
 #app{
-  //background: url("./images/back-view.png") no-repeat center center fixed;
+  background: url("../src/images/back-view.png"), lightgray 50% / cover no-repeat;
   width: 100%;
   height: 100vh;
 }

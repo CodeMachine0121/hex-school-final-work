@@ -30,7 +30,7 @@ const props = defineProps({
   .sub-title {
     font-size: 16px;
     line-height: 150%; /* 24px */
-    letter-spacing: 0.32px;
+    letter-spacing: 0;
   }
 }
 </style>

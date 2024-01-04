@@ -13,11 +13,13 @@ import Brand from "./share/brand.vue";
 
 <style scoped>
 .header{
-  width: 100%;
   display: flex;
+  width: auto;
+  padding: 16px 12px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
 
 </style>
