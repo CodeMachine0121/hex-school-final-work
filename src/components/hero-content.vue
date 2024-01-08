@@ -1,18 +1,11 @@
 <script setup lang="ts">
-
-import HeroTitle from "./share/hero-title.vue";
-import DecoLine from "./share/deco-line.vue";
 </script>
 
 <template>
-  <div class="hero-title">
-    <hero-title  :title="'享樂酒店'" :sub-title="'Enjoyment Luxury Hotel'"/>
-    <deco-line class="deco-line"/>
-  </div>
   <div class="hero-bg">
     <div class="hero-heading">
       <div class="display">
-       <p class="head">高雄</p>
+        <p class="head">高雄</p>
         <p class="head">豪華住宿之選</p>
       </div>
       <p class="desc">
@@ -20,35 +13,17 @@ import DecoLine from "./share/deco-line.vue";
       </p>
     </div>
 
-<!--    todo add flex for these two element-->
     <button class="hero-btn">立即訂房</button>
-    <div style="width: 80px; height: 1px; background: #000000"></div>
   </div>
 </template>
 
 <style scoped>
-.hero-title {
-  margin-top: 40px;
-  .deco-line{
-    margin-top: 20px;
-  }
 
-  width: 335px;
-  height: 169px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  align-self: stretch;
-  margin-bottom: 40px;
-}
 .hero-bg{
   display: flex;
   padding: 60px 20px 60px 20px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 
   border-radius: 40px;
   border-top: 1px solid #F5F7F9;
