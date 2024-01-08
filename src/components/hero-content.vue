@@ -45,7 +45,7 @@ import DecoLine from "./share/deco-line.vue";
 }
 .hero-bg{
   display: flex;
-  padding: 60px 20px 60px 0;
+  padding: 60px 20px 60px 20px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
