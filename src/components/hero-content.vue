@@ -100,5 +100,4 @@ import DecoLine from "./share/deco-line.vue";
     letter-spacing: 0;
   }
 }
-
 </style>

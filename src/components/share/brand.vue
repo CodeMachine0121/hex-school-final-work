@@ -17,6 +17,4 @@
   align-items: center;
   padding: 10px;
 }
-
-
 </style>

@@ -4,8 +4,10 @@ import HeroContent from "./components/hero-content.vue";
 </script>
 
 <template id="app">
-  <nav-bar/>
-  <hero-content/>
+  <div class="shadow">
+    <nav-bar/>
+    <hero-content/>
+  </div>
 </template>
 
 
@@ -13,7 +15,14 @@ import HeroContent from "./components/hero-content.vue";
 @import "scss/reset";
 #app{
   background: url("../src/images/back-view.png"), lightgray 50% / cover no-repeat;
+  padding: 0px;
   width: 100%;
   height: 100vh;
+}
+.shadow{
+  width: 100%;
+  height: 100vh;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.60);
 }
 </style>
